@@ -29,13 +29,13 @@ void selection_sort(int* arr, int n) {
 
 int main(void) {
 
-	int n; //¹è¿­ÀÇ °³¼ö¸¦ ÀÔ·Â¹Ş´Â intÇü º¯¼ö
-	int arr[100]; //¹è¿­ÀÇ ÇÑ°è ¼³Á¤
+	int n; //¹è¿­ÀÇ °³¼ö¸¦ ÀÔ·Â¹Ş´Â intÇEº¯¼E
+	int arr[100]; //¹è¿­ÀÇ ÇÑ°E¼³Á¤
 	printf("¹è¿­ÀÇ °³¼ö¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À.\n");
 	scanf_s("%d", &n);
 	printf("\n");
 
-	//¹è¿­ÀÇ °³¼ö ¸¸Å­ ÀÔ·Â¹Ş±â
+	//¹è¿­ÀÇ °³¼E¸¸Å­ ÀÔ·Â¹Ş±E
 
 	for (int i = 0; i < n; i++) {
 
@@ -44,8 +44,8 @@ int main(void) {
 		printf("\n");
 	}
 
-	//ÇöÀç ÀÔ·ÂÇÑ ¹è¿­ Ãâ·Â
-	printf("ÇöÀç Á¤·Ä Àü °ª");
+	//ÇöÀEÀÔ·ÂÇÑ ¹è¿­ Ãâ·Â
+	printf("ÇöÀEÁ¤·Ä ÀE°ª");
 	for (int j = 0; j < n; j++) {
 
 		printf("%d ", arr[j]);
